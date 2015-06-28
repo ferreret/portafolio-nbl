@@ -1,42 +1,18 @@
-a {
-	color: #6ab47b;
+/*********************************************************
+GENERAL
+*********************************************************/
+
+/* links */
+a {	
 	text-decoration: none;		
 }
 
 body {
-	background-color: white;
-	color: #999;
-}
-
-header {
-	background: #6ab47b;
-	border-color: #599a68;
-}
-
-h1, h2 {
-	color: #fff;
-}
-
-nav {
-	background:  #599a68;
-}
-
-nav a, nav a:visited {
-	color: #fff;
-}
-
-nav a.selected, nav a:hover {
-	color: #32673f;
+	font-family: 'Open Sans', sans-serif;
 }
 
 ul {
 	list-style-type: none;
-}
-
-
-#logo {
-	text-align: center;
-	margin: 0;	
 }
 
 #wrapper {
@@ -44,3 +20,92 @@ ul {
 	max-width: 940px;
 	padding: 0 5%;
 }
+
+/*********************************************************
+HEADING
+*********************************************************/
+#logo {
+	margin: 0;	
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Changa one', sans-serif;
+	font-size: 1.75em;
+	font-weight: normal;
+	line-height: 0.8em;
+	margin: 15px 0;
+}
+
+h2 {
+	font-size: 0.75em;
+	font-weight: normal;
+	margin: -5px 0 0;
+}
+
+
+
+/*********************************************************
+NAVIGATION
+*********************************************************/
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+
+
+
+/*********************************************************
+FOOTER
+*********************************************************/
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	padding-top: 50px;
+}
+
+
+/*********************************************************
+COLORS
+*********************************************************/
+/* links */
+a {
+	color: #6ab47b;
+}
+/* site body */
+body {
+	background-color: white;
+	color: #999;
+}
+/*footer*/
+footer{
+	color: #ccc;
+}
+/* green header */
+header {
+	background: #6ab47b;
+	border-color: #599a68;
+}
+/* logo text */
+h1, h2 {
+	color: #fff;
+}
+/* nav background on mobile */
+nav {
+	background:  #599a68;
+}
+/* nav link */
+nav a, nav a:visited {
+	color: #fff;
+}
+/* selected nav link */
+nav a.selected, nav a:hover {
+	color: #32673f;
+}
+
+
+
+
+
+
