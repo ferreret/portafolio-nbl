@@ -15,6 +15,10 @@ img {
 	max-width: 100%;
 }
 
+h3 {
+	margin: 0 0 1em 0;
+}
+
 ul {
 	list-style-type: none;
 }
@@ -121,6 +125,18 @@ PAGE: PORTFOLIO;
 	font-size: 0.75em;
 	color: #bdc3c7;
 }
+
+
+
+/*********************************************************
+PAGE: ABOUT;
+*********************************************************/
+.profile-photo {
+	border-radius: 100%;
+	display: block;
+	margin: 0 auto 30px;
+	max-width: 150px;
+}	
 
 /*********************************************************
 COLORS
