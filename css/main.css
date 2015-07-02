@@ -126,7 +126,37 @@ PAGE: PORTFOLIO;
 	color: #bdc3c7;
 }
 
+/*********************************************************
+PAGE: CONTACT;
+*********************************************************/
+.contact-info {
+	font-size: 0.9em;
+	margin: 0;
+	padding: 0;
+}
 
+.contact-info a {
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	display: block;
+	margin: 0 0 10px;
+	min-height: 20px;
+	padding: 0 0 0 30px;
+}
+
+.contact-info li.phone a { /*Importante ver que li.phone van juntos porque
+						es el li el que tiene la clase phone, y no, un
+						elemento de la clase phone dentro de lli*/
+	background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a {
+	background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a {
+	background-image: url('../img/twitter.png');
+}
 
 /*********************************************************
 PAGE: ABOUT;
